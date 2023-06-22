@@ -24,7 +24,7 @@ on:
       testFolderPath:
         # passticket input from the user.
         description: Test Location Path
-        default: C:\Topaz\WorkbenchCLI\git\LUNCHCX\LAUNCHCX\Tests
+        default: C:\Topaz\WorkbenchCLI\git\LUNCHCX\LAUNCHCX\Tests\Scenarios
         required: true
       testScenario:
         # Test Scenario name
