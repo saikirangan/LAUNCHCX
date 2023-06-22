@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Default_test" haltAtFailure="false">
+  <Description />
+  <XaUnits>
+    <Path>../Scenarios/CWKTCOBX_Scenario.testscenario</Path>
+  </XaUnits>
+</XaSuite>

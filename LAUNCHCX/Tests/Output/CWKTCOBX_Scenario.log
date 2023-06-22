@@ -1,0 +1,42 @@
+13:32:50.651 INFO      TOPAZ            ***************************************
+13:32:50.667 INFO      TOPAZ            ** Execution from Topaz with options **
+13:32:50.667 INFO      TOPAZ            ***************************************
+13:32:50.667 INFO      TOPAZ            Using repository: false
+13:32:50.667 INFO      TOPAZ            ***************************************
+13:32:50.667 INFO      Engine           Test Scenario execution started
+13:32:50.667 INFO      Engine           Using context settings:
+  Engine Version                : 20.10.3.v20220524-1628_164
+  Environment id                : 10.10.1.172:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 10.10.1.172
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 1047
+  Host user Id                  : ADCDS
+  Use Repository Server         : false
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+13:32:50.667 INFO      Engine           Setting variables from context and context data extensions
+13:32:50.667 INFO      Engine             id: environmentId      value: 10.10.1.172:16196
+13:32:50.667 INFO      Engine             id: environmentType    value: BATCH
+13:32:50.667 INFO      Engine             id: userId             value: ADCDS
+13:32:50.667 INFO      Engine             id: accountingInfo     value: 
+13:32:50.667 INFO      Engine             id: datasetHQL         value: 
+13:32:50.667 INFO      Unittest         Interpreting Unittest of module: CWKTCOBX testscenario path: CWKTCOBX_Scenario.testscenario
+13:32:51.196 INFO      Unittest         Using JCL skeleton to submit JCL
+13:33:36.888 INFO      PopUp-172        Sending Job execution request to Host 
+13:33:42.525 INFO      PopUp-172        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job JOBNAME(JOB05189) ended with return code: 0000
+  Job name       : JOBNAME
+  Job id         : JOB05189
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+13:33:47.538 INFO      Unittest         Execution completed
+13:33:47.539 INFO      Engine           Test Scenario execution ended
